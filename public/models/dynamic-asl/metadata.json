@@ -1,0 +1,22 @@
+{
+  "name": "SignVision Dynamic ASL Temporal Sequence Classifier",
+  "architecture": "Temporal Sequence Net ([24, 22] -> AvgPool1D(3) -> Flatten -> 96 -> 48 -> 10 Softmax)",
+  "labels": [
+    "IDLE",
+    "J",
+    "Z",
+    "HELLO",
+    "THANK YOU",
+    "PLEASE",
+    "SORRY",
+    "YES",
+    "NO",
+    "HELP"
+  ],
+  "sequenceLength": 24,
+  "featureDim": 22,
+  "trainingSamples": 1000,
+  "trainAccuracy": 1,
+  "valAccuracy": 1,
+  "trainedAt": "2026-11-27T00:09:16.733Z"
+}
